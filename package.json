@@ -1,0 +1,42 @@
+{
+  "name": "@csoft-tech/rn-aws-file-upload",
+  "version": "1.0.2",
+  "description": "React Native library to upload files to aws s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^3.5.2",
+    "style-loader": "^1.1.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-native": "0.65.1",
+    "react-native-elements": "^3.4.2",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-video": "^5.1.1",
+    "react-native-webview": "^11.13.0",
+    "react-native-youtube-iframe": "^2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csoft-tech/react-native-url-gallery.git"
+  },
+  "keywords": [
+    "rn-aws-file-upload"
+  ],
+  "author": "csoft-tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csoft-tech/react-native-url-gallery/issues"
+  },
+  "homepage": "https://github.com/csoft-tech/react-native-url-gallery#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
