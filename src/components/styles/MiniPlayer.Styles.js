@@ -1,6 +1,6 @@
-import { Dimensions, NativeModules, Platform } from "react-native";
+import { Dimensions, Platform } from "react-native";
 
-modules.exports = {
+module.exports = {
 	container: {
 		position: "absolute",
 		left: 20,

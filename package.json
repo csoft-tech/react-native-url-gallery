@@ -1,5 +1,5 @@
 {
-  "name": "@csoft-tech/rn-aws-file-upload",
+  "name": "@csoft-tech/react-native-url-gallery",
   "version": "1.0.2",
   "description": "React Native library to upload files to aws s3",
   "main": "index.js",
