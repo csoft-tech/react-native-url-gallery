@@ -55,7 +55,6 @@ const SearchOverlay = ({
 	const keyExtractor = (id, index) => index;
 
 	return (
-		// Search Modal
 		<View
 			style={[
 				ss.container,
@@ -63,12 +62,12 @@ const SearchOverlay = ({
 			]}
 		>
 			<View style={ss.closeIconContainer}>
-				<Pressable
+				<TouchableOpacity
 					style={ss.closeIcon}
 					onPress={() => setIsSearchModalVisible(() => false)}
 				>
 					<Text style={{ color: "#fff" }}>X</Text>
-				</Pressable>
+				</TouchableOpacity>
 			</View>
 
 			<Input
