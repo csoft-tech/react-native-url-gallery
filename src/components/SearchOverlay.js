@@ -5,7 +5,7 @@ import {
 	FlatList,
 	StyleSheet,
 	Text,
-	Pressable,
+	TouchableOpacity
 } from "react-native";
 import { Input } from "react-native-elements";
 import SearchResultItem from "./SearchResultItem";

@@ -82,7 +82,6 @@ const MediaViewer = ({
 					openFullScreen={openFullScreen}
 					searchPlaceholder = {searchPlaceholder}
 					searchMethod={searchMethod}
-					isMiniPlayerVisible={isMiniPlayerVisible}
 				/>
 
 				<FullScreenOverlay
