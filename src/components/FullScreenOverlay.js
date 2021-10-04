@@ -28,12 +28,11 @@ const FullScreenOverlay = ({
 
 	const getItemLayout = (data, index) => ({
 		length: Dimensions.get("window").width,
-		offset: Dimensions.get("window").width * index - index,
+		offset: Dimensions.get("window").width * index,
 		index,
 	});
 
 	return (
-		// FullScreen modal
 		<Modal
 			visible={isFullScreenModalVisible}
 			animationType={"slide"}

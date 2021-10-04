@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {
 	View,
-	Pressable,
+	TouchableOpacity,
 } from "react-native";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import Video from "react-native-video";
@@ -53,7 +53,7 @@ const MiniPlayer = (props) => {
 			</View>
 
 			<View style={ss.iconsContainer}>
-				<Pressable>
+				<TouchableOpacity>
 					<View style={ss.iconContainer}>
 						<MaterialIcons
 							name={isPaused ? "play-circle-outline" : "pause-circle-outline"}
@@ -62,9 +62,9 @@ const MiniPlayer = (props) => {
 							onPress={playPause}
 						/>
 					</View>
-				</Pressable>
+				</TouchableOpacity>
 
-				<Pressable>
+				<TouchableOpacity>
 					<View style={ss.iconContainer}>
 						<MaterialIcons
 							name={"maximize"}
@@ -73,13 +73,13 @@ const MiniPlayer = (props) => {
 							onPress={maximizeVideo}
 						/>
 					</View>
-				</Pressable>
+				</TouchableOpacity>
 
-				<Pressable onPress={closeMiniPlayer}>
+				<TouchableOpacity onPress={closeMiniPlayer}>
 					<View style={ss.iconContainer}>
 						<MaterialIcons name={"close"} color={"#fff"} size={22} />
 					</View>
-				</Pressable>
+				</TouchableOpacity>
 			</View>
 		</View>
 	);

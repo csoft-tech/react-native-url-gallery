@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, ImageBackground, Pressable } from "react-native";
+import { View, Text, ImageBackground, TouchableOpacity } from "react-native";
 import ss from "./styles/HomeListItem.Styles";
 
 const HomeListItem = (props) => {
@@ -11,7 +11,7 @@ const HomeListItem = (props) => {
 
 	return (
 		<>
-			<Pressable onPress={onPress}>
+			<TouchableOpacity onPress={onPress}>
 				<ImageBackground
 					style={ss.container}
 					source={{ uri: thumbnail }}
@@ -25,7 +25,7 @@ const HomeListItem = (props) => {
 						<Text style={ss.desc}>{description}</Text>
 					</View>
 				</ImageBackground>
-			</Pressable>
+			</TouchableOpacity>
 		</>
 	);
 };
